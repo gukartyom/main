@@ -1,0 +1,152 @@
+<InitMainVars>
+PS_DIRECTORY ** Not Set ** 
+ argv[0] is 'C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc\x86e_win64\obj\ptcsetup.exe'
+ Try to figure it out now 
+ Path1 NOW: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc\x86e_win64\obj\ptcsetup.exe
+Now look for: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc\text\compiled_resource\ps_default_resources.dll
+Found C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc\text\compiled_resource\ps_default_resources.dll
+ Resource file exists at: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc\text\compiled_resource\ps_default_resources.dll
+ So, set PS_DIRECTORY to: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc
+PTC_CDHOME ** Not Set ** 
+Now look for: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\ptc_inst\cdmaster.ptc
+ So, set PTC_CDHOME to: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp
+<PsGetVar> Failed for: PTC_CDHOME
+DPS_DIRECTORY ** Not Set ** 
+ So, set DPS_DIRECTORY to: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc
+DONE <InitMainVars>
+<PsCd::PsCd> (C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp)
+<PsGetVar> Failed for: PS_INF_PATH
+<PsGetVar> Failed for: PS_INF_FILE
+ptc_inf_path: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\ptc_inst\ptc.inf
+<PsGetVar> Failed for: PS_ARCH_DB
+<PsInfFile::ReadInf> 'C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 1
+Start of ReadInf time stamp: Вт окт 15 09:45:21 RTZ 2 (зима) 2024
+End of ReadInf time stamp: Вт окт 15 09:45:21 RTZ 2 (зима) 2024
+Init Translation/Message system
+
+ ---------------------------------- 
+ |      Welcome to PTC.Setup      | 
+ ---------------------------------- 
+ Time: Вт окт 15 09:45:22 RTZ 2 (зима) 2024
+ Host: DESKTOP-V8JFB78.www.tendawifi.com
+ Machine type: x86e_win64
+ User: gukar
+ CurDir: C:\Users\GUKAR~1.DES\AppData\Local\Temp\Rar$EXa4164.457.rartemp
+ PTC.Setup build info: Dec  3 2010 19:11:03
+ get_internal_version(): L-03-42
+ --------------------------------------------
+
+<PsGetVar> Failed for: PS_CDMASTER
+<PsCd::readResfile> cdmaster.ptc
+<PsCd::addProduct> (prime)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\ptc_inst\prime.ptc
+set_unihttp CB to PsDownloadAuth
+ClickWrapLA: clickwrap_la
+set_unihttp CB to PsDownloadAuth
+ConvertDBAdd __HOSTID__ '24-FE-9A-00-E8-A9'
+ConvertDBAdd __PRODUCT__ 'Mathcad Prime'
+ConvertDBAdd __RELNUM__ '1.0'
+ConvertDBAdd __DCODE__ 'F000'
+<SetDlgBrowse> ScreenStudentLic.StudentLicFileBrowse - ScreenStudentLic.StudentLicFile type:2
+DirList.GetSize() = 19
+Generic InitFunc: ScreenDftCmds
+PsSetCompVal failed for ScreenServlet
+BEGIN ScreenWebPub::InitFunc()
+<LpcfgDcadCmd::InitFunc>
+ConvertDBAdd __WEBBROWSER__ 'netscape'
+ScreenWelcome::DisplayLA - CountrySelected: 
+Which License Agreement will we display: clickwrap_la
+The Current UI Language: russian
+License Agreement Found: C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\dsrc\text\russian\clickwrap_la.txt
+ScreenWelcome PostFunc Dir = 1
+ConvertDBAdd __INSTBLE__ 'Mathcad Prime'
+ConvertDBAdd __PRODUCT__ 'Mathcad Prime'
+ScreenWelcome Product::PreCheck for: Mathcad Prime
+PsProductPrime_precheck called.
+SAVE EzProp OptionMenu label: ScreenWelcome.CountryMenu = []
+SAVE EzProp OptionMenu value: ScreenWelcome.CountryMenu = []
+SAVE EzProp CheckButton: ScreenWelcome.AcceptBtn = [TRUE]
+SAVE EzProp CheckButton: ScreenWelcome.DeclineBtn = [FALSE]
+Generic PostFunc: ScreenMathcadTrial
+SAVE EzProp RadioGroup: ScreenMathcadTrial.RgrpMcadTrial = [acquire]
+SAVE EzProp RadioGroup: ScreenMathcadTrial.RgrpPrimeLic = [trial]
+Generic PostFunc: ScreenMathcadCustom
+PsProductPrime_prerequsite called.
+looking for ProgramFiles x86 
+looking for ProgramFiles x86 
+Testing for PreReq .NET 3.5 SP 1 
+PsDotNetFrameworkInstalled: not found : v3.5
+Convert(2): Possible key missing from ConvertDB: __LOADPOINT__
+PsGetDBValue: keyword (__LOADPOINT__) wasn't found.
+Raise Error DialogПО Microsoft .NET Framework 3.5 SP1 не найдено в системе. Это ПО требуется для завершения установки Mathcad. Загрузить и установить необходимую версию .NET можно по адресу:
+Setting up default loadpoint 
+<PsGetVar> Failed for: PS_ALT_ROOTPATH
+    <PsInstall::PsInstall> loadpoint: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0
+    <PsInstall::Refresh> Path: 'C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0'
+looking for ProgramFiles x86 
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\prime_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\instlog.txt
+InitLPdcode inst_log: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\version\prime.ver doesn't exist
+Look for: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\version\prime.ver
+C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\version\prime.ver doesn't exist
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\prime_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\prime_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\prime_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+ New Cluster Size for this disk: 4096
+<PsInfFile::ReadInf> 'C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 0
+Start of ReadInf time stamp: Вт окт 15 09:46:21 RTZ 2 (зима) 2024
+<PsInfFile::ReadInf> 'UseMsiFeatureSize' = 1
+ PsInfFile::ReadInf - Reread the ptc.inf file 
+cdsectionsize path = C:\Users\gukar.DESKTOP-V8JFB78\AppData\Local\Temp\Rar$EXa4164.457.rartemp\ptc_inst\cdsectionsize.txt
+cdsectionsize file was found
+Current ClusterSize = 4096
+cdsectionsizeIdx = 5
+End of ReadInf time stamp: Вт окт 15 09:46:21 RTZ 2 (зима) 2024
+<PsProduct::SetLoadpoint> new loadpoint: C:\Program Files (x86)\Mathcad\Mathcad Prime 1.0
+<PsProduct::SetLoadpoint> old Loadpoint: 
+IsVista() returning = 0
+IsWindows7() returning = 0
+IsVista() returning = 0
+IsWindows7() returning = 0
+IsVista() returning = 0
+IsWindows7() returning = 0
+Generic PostFunc: ScreenMathcadCustom
+PsProductPrime_prerequsite called.
+looking for ProgramFiles x86 
+looking for ProgramFiles x86 
+Testing for PreReq .NET 3.5 SP 1 
+PsDotNetFrameworkInstalled: not found : v3.5
+Raise Error DialogПО Microsoft .NET Framework 3.5 SP1 не найдено в системе. Это ПО требуется для завершения установки Mathcad. Загрузить и установить необходимую версию .NET можно по адресу:
+IsVista() returning = 0
+IsWindows7() returning = 0
+IsVista() returning = 0
+IsWindows7() returning = 0
+IsVista() returning = 0
+IsWindows7() returning = 0
+main_dlg->Activate FAILED!
+STATUS my_main: 0
